@@ -7,7 +7,7 @@ use function foo\func;
 use WP_CLI,
 	WP_CLI_Meta_Cleanup\Commands;
 
-if ( ! class_exists( 'WP_CLI' ) ) {
+if ( ! defined( 'WP_CLI' ) ) {
 	return;
 }
 
