@@ -1,0 +1,18 @@
+{
+    "name": "thomaslhotta/wp-cli-meta-cleanup",
+    "description": "",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/thomaslhotta/wp-cli-meta-cleanup",
+    "license": "MIT",
+    "authors": [],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [ "command.php" ]
+    },
+    "require": {
+        "wp-cli/wp-cli": ">=0.23.0"
+    },
+    "require-dev": {
+        "behat/behat": "~2.5"
+    }
+}
