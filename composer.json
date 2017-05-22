@@ -1,13 +1,14 @@
 {
     "name": "thomaslhotta/wp-cli-meta-cleanup",
-    "description": "",
+    "description": "Adds a WP-CLI command to delete duplicate meta entry for posts, comments and terms.",
     "type": "wp-cli-package",
     "homepage": "https://github.com/thomaslhotta/wp-cli-meta-cleanup",
     "license": "MIT",
     "authors": [],
     "minimum-stability": "dev",
     "autoload": {
-        "files": [ "command.php" ]
+        "files": [ "command.php" ],
+        "classmap": [ "commands" ]
     },
     "require": {
         "wp-cli/wp-cli": ">=0.23.0"
