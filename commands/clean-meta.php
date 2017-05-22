@@ -68,7 +68,7 @@ abstract class Clean_Meta extends \WP_CLI_Command {
 				// Actually delete and recreate meta
 				delete_metadata( $this->get_type(), $id, $key );
 				foreach ( $meta as $value ) {
-					add_metadata( $this->get_type(), $id, $key );
+					add_metadata( $this->get_type(), $id, $key, $value );
 				}
 			}
 
